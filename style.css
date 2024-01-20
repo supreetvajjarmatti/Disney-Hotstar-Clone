@@ -124,11 +124,11 @@ body{
 }
 
 .carousel-item {
-    width: 100%; /* Ensure the carousel item covers the full width */
+    width: 100%;
 }
 
 .carousel-item img {
-    width: 100%; /* Ensure the image covers the full width */
+    width: 100%; 
     height: auto;
     position: relative;
 }
@@ -143,10 +143,10 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     padding: 20px;
-    color: #fff; /* Set your desired text color */
+    color: #fff; 
 }
 
-/* Optional: Customize the carousel controls */
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 5%;
@@ -156,19 +156,20 @@ body{
 .carousel-control-next-icon {
     height: 50px;
     width: 50px;
+    opacity: 0;
 }
 
-/* Optional: Customize the carousel indicators (dots) */
+
 .carousel-indicators {
     bottom: -40px;
 }
 
 .carousel-indicators li {
-    background-color: #343a40; /* Set your desired indicator color */
+    background-color: #343a40; 
 }
 
 .carousel-indicators .active {
-    background-color: #007bff; /* Set your desired active indicator color */
+    background-color: #007bff; 
 }
  .video-card-container {
     position: relative;
@@ -204,4 +205,63 @@ body{
  .video-card:hover .video-card-image {
     display: none;
  }
+
+
+ .title{
+
+    color: white;
+    opacity: 0.9;
+    padding-left: 4%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+ }
+
+ .movie-list{
+    width: 100%;
+    height: 220px;
+    position: relative;
+    margin: 10px 0 20px;
+ }
+
+ .card-container{
+    position: absolute;
+    width: 96%;
+    padding-left: 4%;
+    height: 220px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+
+ }
+
+ .card-container::-webkit-scrollbar{
+    display: none;
+
+ }
+
+ .card{
+    position: relative;
+    min-height: 150px;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+    transition: .5s;
+    background: black;
+ }
+
+ .card:hover{
+    transform: scale(1.1);
+ }
+
+ .card:hover .card-body{
+    opacity: 1;
+ }
+ 
+ 
 
