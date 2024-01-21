@@ -29,6 +29,11 @@ Open index.html in your preferred web browser and let the magic unfold!
 📷 Screenshots
 📸 Behold the visual spectacle! Include screenshots of your project to showcase its magical appearance.
 
+<img width="945" alt="Annotation 2024-01-21 100937" src="https://github.com/supreetvajjarmatti/Disney-Hotstar-Clone/assets/119556076/a84f5c08-61c6-497f-a66b-9667f16de638">
+<img width="946" alt="Annotation 2024-01-21 101016" src="https://github.com/supreetvajjarmatti/Disney-Hotstar-Clone/assets/119556076/e53f3d68-d6d6-46aa-8803-ec5b5949c4cf">
+
+
+
 🤝 Contributing
 Feel the calling to contribute? 🧙‍♂️ Cast your spell by opening issues or creating pull requests.
 
